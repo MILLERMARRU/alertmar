@@ -1,0 +1,13 @@
+{
+  "name": "alertmar-workspace",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev:demo": "pnpm --filter react-demo dev",
+    "build:core": "pnpm --filter @alertmar/core build",
+    "test": "pnpm --filter @alertmar/core test"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
